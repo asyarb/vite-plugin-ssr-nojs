@@ -106,8 +106,8 @@ npm i -D @asyarb/vite-plugin-ssr-nojs
    </html>
    ```
 
-4. Run `vite build`. Your statically generated HTML files will be available in
-   vite's output directory.
+4. Run `vite build` and `vite dev` as you normally would. On builds, your
+   statically generated HTML files will be available in vite's output directory.
 
 ## Limitations
 
