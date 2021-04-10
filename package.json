@@ -1,6 +1,8 @@
 {
   "name": "@asyarb/vite-plugin-ssr-nojs",
   "license": "MIT",
+  "description": "Vite plugin for authoring static HTML with your favorite JS libraries and frameworks.",
+  "author": "Anthony Yarbrough <asyarb>",
   "version": "0.1.0",
   "main": "dist/index.js",
   "files": [
