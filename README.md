@@ -4,9 +4,9 @@ A simple Vite plugin to use your preferred JS library as a templating language
 for static HTML. This plugin will render your provided app as a series of
 `.html` files with no JavaScript included.
 
-This plugin's purpose is to provide a modern DX (components, code-splitting,
-etc.) for authoring straightforward HTML files, and is not intended for use in
-large production projects.
+This plugin's purpose is to provide a modern DX (components, fast hot-reloading,
+css/asset management, etc.) for authoring basic HTML files, and is not intended
+for use in large production projects.
 
 ## Installation
 
