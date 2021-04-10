@@ -3,7 +3,7 @@
   "license": "MIT",
   "description": "Vite plugin for authoring static HTML with your favorite JS libraries and frameworks.",
   "author": "Anthony Yarbrough <asyarb>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "files": [
     "dist",
