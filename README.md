@@ -53,8 +53,8 @@ npm i -D @asyarb/vite-plugin-ssr-nojs
    })
    ```
 
-2. Setup the file specified in `renderModulePath`. The example below uses React,
-   and React Router, but any framework will work.
+2. Setup the file specified in `renderModulePath`. The example below uses React
+   and React Router, but any framework that can render to a string will work.
 
    ```tsx
    // src/entry-server.tsx
