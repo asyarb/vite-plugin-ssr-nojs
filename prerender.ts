@@ -1,6 +1,7 @@
 import * as fs from 'fs'
 import * as path from 'path'
 import { JSDOM } from 'jsdom'
+import rimraf from 'rimraf'
 
 import { render } from './dist/server/entry-server'
 
@@ -34,6 +35,8 @@ async function prerender({ routes }: { routes: string[] }) {
 
     console.log('SSG: ', outputPath)
   }
+
+  rimraf(path.resolve(__dirname, 'dist/server'), () => {})
 }
 
 prerender({ routes: ROUTES })
