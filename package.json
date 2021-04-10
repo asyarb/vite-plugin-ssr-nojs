@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-ssr-nojs",
+  "name": "@asyarb/vite-plugin-ssr-nojs",
   "license": "MIT",
   "version": "0.1.0",
   "main": "dist/index.js",
