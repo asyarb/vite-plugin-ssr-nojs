@@ -4,7 +4,7 @@ import { StaticRouter } from 'react-router-dom/server'
 
 import { App } from './App'
 
-export async function render(route: string) {
+export function render(route: string) {
   return ReactDOMServer.renderToStaticMarkup(
     <StaticRouter location={route}>
       <App />
